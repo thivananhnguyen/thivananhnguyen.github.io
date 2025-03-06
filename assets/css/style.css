@@ -1,10 +1,4 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
 font-family: 'Poppins', sans-serif;
 ==================================== */
 
@@ -364,6 +358,80 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.education-horizontal-timeline*/
 
 /*-------------------------------------
+        6.  Certifications
+--------------------------------------*/
+#certifications {
+    padding: 80px 0;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1f2c6c;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#certifications p {
+    font-size: 1.3rem;
+    color: #43485c;
+    margin-bottom: 50px;
+    line-height: 1.7;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#certifications li {
+    background-color: #fff;
+    border-left: 5px solid #d92cf9;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+}
+
+#certifications li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+#certifications strong {
+    color: #d92cf9;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#certifications em {
+    color: #636a82;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #certifications h2 {
+        font-size: 2.2rem;
+    }
+
+    #certifications p {
+        font-size: 1.1rem;
+    }
+
+    #certifications li {
+        padding: 20px;
+    }
+}
+
+/*-------------------------------------
         6.  Skills
 --------------------------------------*/
 .skills {
@@ -599,6 +667,18 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     width: 100%;  
     height: auto;  
     border-radius: 10px; /* Bo góc nếu muốn */
+}
+
+/* Styling for the section */
+#projects .project-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects .project-image:hover {
+    transform: scale(1.05);
 }
 
 /*========================Thank you=================
