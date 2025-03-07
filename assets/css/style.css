@@ -52,13 +52,30 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h4 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 p {
 	margin: 0;
 	line-height:1.8;
 	color:#43485c;
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 img{border:none;max-width:100%; height:auto;}
 ul{
 	padding: 0;
