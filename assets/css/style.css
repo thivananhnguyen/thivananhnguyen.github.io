@@ -290,8 +290,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
 }
 .about-list-icon{
     display: flex;
@@ -332,6 +333,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /*.single-about-img */
 
+@media (max-width: 767px) {
+    .single-about-img {
+        box-shadow: none; 
+        width: 100%;
+    }
+    
+    .single-about-img img {
+        width: 100%;
+        height: auto;
+    }
+}
 /*-------------------------------------
         5.  Education
 --------------------------------------*/
