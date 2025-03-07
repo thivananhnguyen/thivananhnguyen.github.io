@@ -682,7 +682,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .video-container video {
     width: 100%;  
-    height: auto;  
+    height: 250px;  
     border-radius: 10px; /* Bo góc nếu muốn */
 }
 
