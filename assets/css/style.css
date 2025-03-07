@@ -290,9 +290,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
+    max-width: 500px;
+    height: 468px;
 }
 .about-list-icon{
     display: flex;
