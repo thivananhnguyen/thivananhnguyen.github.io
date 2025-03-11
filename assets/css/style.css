@@ -382,6 +382,19 @@ span.single-timeline-horizontal {
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.timeline-horizontal-border*/
+@media (max-width: 768px) {
+    .timeline-horizontal-border {
+        padding: 0;
+    }
+
+    .timeline-content h4.title {
+        margin-top: 5px;
+    }
+
+    .timeline-content {
+        margin-bottom: 15px;
+    }
+}
 
 /*.education-horizontal-timeline*/
 
